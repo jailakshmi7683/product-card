@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .card {
+    background: #fff;
+    width: 280px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-info {
+    padding: 12px;
+  }
+  
+  .title {
+    font-size: 15px;
+    font-weight: 545;
+    color: #0f1111;
+    margin-bottom: 8px;
+    line-height: 24px;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  .stars {
+    color: rgb(236, 174, 16);
+    font-size: 22px;
+  }
+  .dropdown {
+    content: '';
+    border: 5px solid transparent;
+    border-top-color: black;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  
+  .reviews {
+    color: #007185;
+  }
+  
+  .sold {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+  .price .dollar {
+    font-size: 14px;
+    vertical-align: top;
+  }
+  
+  .price .cents {
+    font-size: 14px;
+    vertical-align: top;
+  }
+  
+  .delivery {
+    font-size: 13px;
+    color: #0f1111;
+    margin-bottom: 30px;
+  }
+  
+  .ship {
+    color:#0f1111 ;
+    font-weight: 500;
+  }
+  
+  .add-to-cart {
+    background-color: #ffd814 ;
+    border: 1px solid #fcd200 ;
+    padding: 8px ;
+    width: 40% ;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight:300;
+    transition: background 0.2s ease;
+  }
+
+  .add-to-cart:hover {
+    background-color: #f7ca00;
+  }  
